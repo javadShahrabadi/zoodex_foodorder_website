@@ -1,0 +1,8 @@
+.bg__image {
+  background-image: url("https://zoodex.ir/_nuxt/img/zoodex-main-banner.93b6302.jpg");
+  background-repeat: no-repeat;
+  width: 100%;
+  height: 600px;
+  object-fit: contain;
+  background-position: center;
+}
