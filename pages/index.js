@@ -1,5 +1,5 @@
 import Layout from "@/components/Layout/Layout";
-import HeaderBottom from "@/components/Layout/Home/HeaderBottom";
+import HeaderBottom from "@/components/Home/HeaderBottom";
 // ------------------
 
 const HomePage = () => {
