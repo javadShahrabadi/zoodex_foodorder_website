@@ -13,9 +13,9 @@ const Header = () => {
   const [showSubMenu, setShowSubMenu] = useState(false);
 
   return (
-    <header className="bg-white w-full py-2 border-b border-gray-200 shadow-md fixed z-20 ">
-      <nav className="flex items-center flex-row-reverse md:flex-row justify-between sm:px-5 md:px-14">
-        <div className="cursor-pointer">
+    <header className="bg-white w-full py-2 border-b border-gray-200 shadow-md fixed z-50 ">
+      <nav className="flex items-center flex-row-reverse md:flex-row justify-between px-2 md:px-14">
+        <div className="cursor-pointer pl-1 md:pl-0">
           <Image
             src="https://zoodex.ir/_nuxt/img/logo.177e5a9.svg"
             width={164}
@@ -52,7 +52,7 @@ const Header = () => {
       </nav>
       {/* submenu */}
       {showSubMenu && (
-        <div className="pt-4 px-8 block md:hidden">
+        <div className="pt-4 px-4 sm:px-8 block md:hidden submenu__animation">
           <ul className="flex flex-col space-y-6 text-sm">
             <li className="cursor-pointer border-b border-gray-100 pb-4 blue__title">
               جستجو

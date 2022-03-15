@@ -2,7 +2,7 @@
 const nextConfig = {
   reactStrictMode: true,
   images: {
-    domains: ["zoodex.ir"],
+    domains: ["zoodex.ir", "cdn.mobit.site"],
   },
 };
 
